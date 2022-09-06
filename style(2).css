@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    background-color: #E5E3DE;
+}
+
+footer{
+    background-color: #C21010;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+    bottom: 0;
+}
+
+nav{
+    background-color: #C21010;
+    height: 40px;
+}
+
+.Menu{
+    color: white;
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.Menu:hover{
+    background-color: #E64848;
+}
+
+.ListaMenu{
+    float: left;
+}
+
+.Lista{
+    float: right;
+}
+
+
+.LinkFooter{
+    text-decoration: none;
+    color: white;
+}
+
+.LinkFooter:hover{
+    text-decoration: underline;
+}
+
+.FooterPosicion{
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-bottom: 25px;
+}
+
+.FooterLista{
+    margin: 5px;
+}
+
+.FooterTexto{
+    color: white;
+}
+
+.CampoSuscripcion{
+    height: 30px;
+    margin-top: 5px;
+    border: none;
+    padding-left: 15px;
+}
+
+.BotonSuscripcion{
+    height: 30px;
+    margin-top: 5px;
+    width: 60px;
+    background-color: #E64848;
+    color: white;
+    border: none;
+}
+
+.Iconos{
+    margin-top: 15px;
+    margin-left: 5px;
+}
+
+.BotonIcono{
+    margin: 3px;
+}
+
+
+form {
+    font-size: 15px;
+    font-style: italic;
+    border: 1px solid black;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 500px;
+    padding: 20px 30px;
+}
+
+fieldset {
+    border-style: double;
+    padding: 8px;
+}
+
+legend {
+    font-size: 20px;
+}
+
+.controls {
+    width: 100%;
+    height: 30px;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+.buttons {
+    margin: 10px 0px;
+    background-color:#E64848 ;
+    color: white;
+    border: 1px solid white;
+    text-align: center;
+    width: 100%;
+    padding: 5px;
+}
+
+
+

@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    background-color: #E5E3DE;
+}
+
+footer{
+    background-color: #C21010;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+nav{
+    background-color: #C21010;
+    height: 40px;
+}
+
+.Menu{
+    color: white;
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.Menu:hover{
+    background-color: #E64848;
+}
+
+.ListaMenu{
+    float: left;
+}
+
+.Lista{
+    float: right;
+}
+
+.Envoltorio{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(2, 1fr);
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+.Imagen{
+    border-radius: 15px;
+}
+
+.LinkFooter{
+    text-decoration: none;
+    color: white;
+}
+
+.LinkFooter:hover{
+    text-decoration: underline;
+}
+
+.ImagenPosicion{
+    display:flex;
+    justify-content: end;
+    margin: 15px;
+    margin-top: 70px;
+}
+
+.TextoPosicion{
+    margin: 15px;
+    padding-right: 150px;
+    color: #0F3047;
+    margin-top: 110px;
+}
+
+.TextoPosicion2{
+    margin: 15px;
+    padding-left: 150px;
+    color: #0F3047;
+    text-align: right;
+    margin-top: 100px;
+}
+
+.Titulo{
+    font-style: italic;
+    font-weight: 900;
+    font-size: 38px;
+}
+
+.Subtitulo{
+    font-style: bold;
+    font-weight: 700;
+    font-size: 22px;
+    color: #E64848;
+}
+
+.Descripcion{
+    font-size: 16px;
+}
+
+.FooterPosicion{
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-bottom: 25px;
+}
+
+.FooterLista{
+    margin: 5px;
+}
+
+.FooterTexto{
+    color: white;
+}
+
+.CampoSuscripcion{
+    height: 30px;
+    margin-top: 5px;
+    border: none;
+    padding-left: 15px;
+}
+
+.BotonSuscripcion{
+    height: 30px;
+    margin-top: 5px;
+    width: 60px;
+    background-color: #E64848;
+    color: white;
+    border: none;
+}
+
+.Iconos{
+    margin-top: 15px;
+    margin-left: 5px;
+}
+
+.BotonIcono{
+    margin: 3px;
+}
+
+.Titulo1{
+    font-style: bold;
+    font-weight: 600;
+    font-size: 32px;
+}
+
+.Subtitulo1{
+    font-size: 20px;
+}
+
+.BotonRegistro{
+    height: 30px;
+    margin-top: 5px;
+    width: 200px;
+    background-color: #E64848;
+    color: white;
+    border: none;
+    font-size: 16px;
+}
+
+.BotonRegistro:hover{
+    background-color: #C21010;
+}
+
+.ImagenDiv{
+    margin-top: 80px;
+}
+
+.Titulo2{
+    font-size: 26px;
+}
+
+.Subtitulo2{
+    font-style: italic;
+    font-weight: 900;
+    font-size: 26px;
+    color: #E64848;
+}
+
+.Imagen3{
+    border-radius: 15px;
+    margin-bottom: 60px;
+}
+
+.TextoPosicion3{
+    margin: 15px;
+    padding-right: 150px;
+    color: #0F3047;
+    margin-top: 110px;
+    margin-bottom: 60px;
+}
+
+

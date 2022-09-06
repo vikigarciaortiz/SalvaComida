@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+</head>
+<body>
+    <main>
+        <div>
+            <h3>Crea tu cuenta</h3>
+        </div>
+        <div>
+            <form action="" method="post" enctype="text/plain">
+                <button>Registrarse con facebook</button> <br>
+                <button>Registrarse con google</button>
+                <div>¿como quieres registrarte?</div>
+                <div>Cliente</div>
+                <input type="radio" name="servicio" value="Cliente">
+                <div>Comercio</div>
+                <input type="radio" name="servicio" value="Comercio"><br>
+                <input type="button" value="Continuar">
+            </form>
+        </div>
+        <div>
+            <h3>Cliente</h3>
+            <form action="" method="post" enctype="text/plain">
+                <input type="text" name="nombre" placeholder="Nombre">
+                <input type="text" name="apellido" placeholder="Apellido"> <br>
+                <input type="text" name="usuario" placeholder="Nombre de usuario"> <br>
+                <input type="email" name="mail" placeholder="Mail"><br>
+                <input type="password" name="contraseña" placeholder="Contraseña">
+                <input type="password" name="contraseña" placeholder="Confirmar contraseña"> <br>
+                <input type="tel" name="teléfono" placeholder="Teléfono de contacto">
+                <div>Fecha de nacimiento</div>
+                <input type="date" name="fecha"><br>
+                <div>Aceptar <a href="">términos y condiciones</a>.</div>
+                <input type="checkbox" name="aceptar" value="0"><br>
+                <input type="button" value="Registrarse">
+            </form>
+        </div>
+        <div>
+            <h3>Comercio</h3>
+            <form action="" method="post" enctype="text/plain">
+                <input type="text" name="local" placeholder="Nombre del local"><br>
+                <select name="local">
+                    <option value="local">tipo de local</option>
+                    <option value="restaurante">restaurante</option>
+                    <option value="Mercado mayorista">Mercado mayorista</option>
+                    <option value="Mercado simple">Mercado simple</option>
+                    <option value="kiosko">Kiosko</option>
+                    <option value="Verdulería">Verdulería</option>
+                    <option value="Carnecería">Carnecería</option>
+                </select><br>
+                <div>Cantidad de sucursales</div>
+                <input type="number" name="sucursales"><br>
+                <input type="text" name="nombre" placeholder="Nombre">
+                <input type="text" name="apellido" placeholder="Apellido"> <br>
+                <input type="email" name="mail" placeholder="Mail"><br>
+                <input type="password" name="contraseña" placeholder="Contraseña">
+                <input type="password" name="contraseña" placeholder="Confirmar contraseña"><br>
+                <input type="tel" name="teléfono" placeholder="Teléfono de contacto"><br>
+                <input type="text" name="dirección" placeholder="Dirección del local">
+                <input type="text" name="referencia" placeholder="Referencias de ubicación">
+                <div>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d52343.02542106561!2d-57.98818982369717!3d-34.92052327676748!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sar!4v1661737013857!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <textarea name="descripción" cols="40" rows="10" placeholder="Descripción del local"></textarea>
+                <div>Logo del local</div>
+                <input type="file" name="logo">
+                <div>Aceptar <a href="">términos y condiciones</a>.</div>
+                <input type="checkbox" name="aceptar" value="0"><br>
+                <input type="button" value="Registrarse">
+        </div>
+    </main>
+</body>
+</html>
