@@ -4,14 +4,52 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style(3).css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,900&display=swap" rel="stylesheet">
     <title>Registro</title>
 </head>
 <body>
+    <header>
+        <div>
+            <img class="ImagenInicio" src="iconos/logo blanco png.png" alt="logo">
+        </div>
+        <nav>
+            <div >
+                <form action="" method="post" enctype="text/plain">
+                    <input class="Buscador" type="text" name="buscador" placeholder="Busca el local o comedor">                        <form  action="" method="post" enctype="text/plain">
+                            <select class="Desplegable" name="comercios">
+                                <option value="Mercado mayorista">Supermercados</option>
+                                <option value="restaurante">restaurantes</option>
+                                <option value="Mercado simple">Mercados</option>
+                                <option value="kiosko">Kioskos</option>
+                                <option value="Verdulería">Verdulerías</option>
+                                <option value="Carnecería">Carnecerías</option>
+                            </select>
+                        </form>
+                </form>
+            </div>
+            <div class="OpcionesInicio">
+                <ul type="none" class="Inicio1">
+                    <li><a class="LinkInicio" href="index.html">Inicio</a></li>
+                    <li>
+
+                    </li>
+                    <li><a class="LinkInicio" href="index.html#acercadenosotros">Acerca de Nosotros</a></li>
+                </ul>
+                <ul type="none" class="Inicio2">
+                    <li><a class="LinkInicio" href="pagina3.html">Crea tu cuenta</a></li>
+                    <li><a class="LinkInicio" href="#ingreso">Ingresar</a></li>
+                    <li><a class="LinkInicio" href="pagina3.html#comercio">Registrar mi negocio</a></li>
+                    <li><a class="LinkInicio" href="">Mi actividad</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
     <main>
         <div>
-            <h3>Crea tu cuenta</h3>
+            <h3 class="Titulo">Crea tu cuenta</h3>
         </div>
-        <div>
+        <div class="Formulario">
             <form action="" method="post" enctype="text/plain">
                 <button>Registrarse con facebook</button> <br>
                 <button>Registrarse con google</button>
@@ -23,7 +61,7 @@
                 <input type="button" value="Continuar">
             </form>
         </div>
-        <div>
+        <div class="Formulario">
             <h3>Cliente</h3>
             <form action="" method="post" enctype="text/plain">
                 <input type="text" name="nombre" placeholder="Nombre">
@@ -40,8 +78,8 @@
                 <input type="button" value="Registrarse">
             </form>
         </div>
-        <div>
-            <h3>Comercio</h3>
+        <div class="Formulario">
+            <h3><a name="comercio">Comercio</a></h3>
             <form action="" method="post" enctype="text/plain">
                 <input type="text" name="local" placeholder="Nombre del local"><br>
                 <select name="local">
@@ -74,5 +112,34 @@
                 <input type="button" value="Registrarse">
         </div>
     </main>
+    <footer>
+        <div class="FooterPosicion">
+            <ul type="none">
+                <li class="FooterLista"><a class="LinkFooter" href="">Terminos y condiciones</a></li>
+                <li class="FooterLista"><a class="LinkFooter" href="">Política de privacidad</a></li>
+                <li class="FooterLista"><a class="LinkFooter" href="">Política de cookies</a></li>
+            </ul>  
+        </div>
+        <div class="FooterPosicion">
+            <ul type="none">
+                <li class="FooterLista"><a class="LinkFooter" href="">Ayuda</a></li>
+                <li class="FooterLista"><a class="LinkFooter" href="">Contacto</a></li>
+                <li class="FooterLista"><a class="LinkFooter" href="">Descargá la app</a></li>
+            </ul>
+            <div class="Iconos">
+            <a class="BotonIcono" href=""><img src="iconos/ig.png" alt="instagram" width="30px" height="auto"></a>
+            <a class="BotonIcono" href=""><img src="iconos/fb.png" alt="facebook" width="15px" height="auto"></a>
+            <a class="BotonIcono" href=""><img src="iconos/tw.png" alt="twitter" width="30px" height="auto"></a>    
+            </div>
+        </div>
+        <div class="FooterPosicion">
+            <h2 class="FooterTexto">Suscribite</h2>
+            <h3 class="FooterTexto">y enterate todas las novedades!</h3>
+            <form action="" method="post" enctype="text/plain">
+                <input class="CampoSuscripcion" type="email" name="email" placeholder="Ingresa tu email aquí"><br>
+                <input class="BotonSuscripcion" type="submit" value="Unirse">
+            </form>
+        </div>      
+    </footer>
 </body>
 </html>

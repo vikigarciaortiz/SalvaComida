@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    background-image: url(img/imagenfondoregistro.jpg);
+}
+
+header {
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 0px 0px 10px 0px;
+    padding: 20px 10px 20px 10px;
+    background-color: #E64848;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.OpcionesInicio {
+    display: flex;
+    flex-direction: column; 
+}
+footer{
+    background-color: #C21010;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+    bottom: 0;
+}
+
+.ImagenInicio { 
+    width: 300px;
+    margin-right: 200px;
+}
+
+.Buscador {
+    width: 400px;
+    height: 50px;
+    font-size: large;
+    margin-right: 50px;
+}
+.Desplegable {
+    width: 400px;
+    height: 25px;
+    font-size: large;
+    margin-right: 50px;
+}
+.Inicio1 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: nowrap;
+    border: white solid 2px;
+    padding: 10px;
+    margin-bottom: 5px;
+    width: 500px;
+}
+.Inicio2 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: nowrap;
+    border: white solid 2px;
+    padding: 10px;
+    width: 500px;
+}
+
+.LinkInicio {
+    text-decoration: none;
+    color: white;
+    padding: 2px;
+    font-weight: bold;
+}
+
+.LinkInicio:hover {
+    text-decoration: underline;
+}
+.Titulo {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+    text-decoration: underline;
+}
+.Formulario {
+    font-size: 15px;
+    font-style: italic;
+    border: 1px solid black;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 500px;
+    padding: 20px 30px;
+    background-color: #E5E3DE;
+}
+
+.LinkFooter{
+    text-decoration: none;
+    color: white;
+}
+
+.LinkFooter:hover{
+    text-decoration: underline;
+}
+
+.FooterPosicion{
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-bottom: 25px;
+}
+
+.FooterLista{
+    margin: 5px;
+    color: white;
+}
+
+.FooterTexto{
+    color: white;
+}
+
+.CampoSuscripcion{
+    height: 30px;
+    margin-top: 5px;
+    border: none;
+    padding-left: 15px;
+}
+
+.BotonSuscripcion{
+    height: 30px;
+    margin-top: 5px;
+    width: 60px;
+    background-color: #E64848;
+    color: white;
+    border: none;
+}
+
+.Iconos{
+    margin-top: 15px;
+    margin-left: 5px;
+}
+
+.BotonIcono{
+    margin: 3px;
+}
+
