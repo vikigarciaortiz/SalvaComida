@@ -328,4 +328,34 @@ footer{
     .main{
       margin-top: 40px;
     }
+
+    .Imagen{
+      width: 300px;
+      height: auto;
+    }
+
+    .Envoltorio{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: auto;
+      margin: 50px;
+    }
+
+    .ImagenPosicion{
+      display: grid;
+      justify-items: end;
+    }
+
+    .ImagenDiv{
+      display: grid;
+      justify-items: end;
+    }
+
+    .TextoPosicion{
+      padding: 30px 190px 20px 30px;
+    }
+
+    .TextoPosicion3{
+      padding: 30px 190px 20px 30px;
+    }
 }
