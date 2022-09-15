@@ -9,13 +9,27 @@
     <title>Inicio de sesión</title>
 </head>
 <body>
-    <nav>
-        <ul class="Lista" type="none">
-            <li class="ListaMenu"><a class="Menu" href="">Inicio</a></li>
-            <li class="ListaMenu"><a class="Menu" href="pagina2.html">Ingresar</a></li>
-            <li class="ListaMenu"><a class="Menu" href="index.html#acercadenosotros">Sobre nosotros</a></li>
-        </ul>
-    </nav>
+    <div>
+        <header>
+            <img class="ImagenPpal" src="/img/ppal celular.jpg" alt="Logo" width="100%" height="auto">
+        </header>
+        <nav class="navbar">
+            <div class="navbar-container container">
+                <input type="checkbox" name="" id="">
+                <div class="hamburger-lines">
+                    <span class="line line1"></span>
+                    <span class="line line2"></span>
+                    <span class="line line3"></span>
+                </div>
+                <ul class="menu-items">
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Iniciar sesión</a></li>
+                    <li><a href="#">Registrarse</a></li>
+                    <li><a href="#">Sobre nosotros</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+            </div>
+        </nav>
     <main>
             <form>
                 <fieldset>
@@ -28,10 +42,6 @@
                     <input class="buttons" type="submit" value="Acceder"><br>
                     <button class="buttons">Ingresar con Facebook</button><br>
                     <button class="buttons">Ingresar con Google</button><br>
-                    <div>
-                    <span>Recordarme</span>
-                    <input type="checkbox" name="recordar" value="0">
-                    </div>
                    <div>
                     <p>¿No tenés cuenta? <a href="pagina3.html">Registrate ahora</a><br>
                     ¿Olvidaste tu contraseña? <a href="">Recuperala</a></p>
@@ -42,11 +52,12 @@
     </main>
     <footer>
         <div class="FooterPosicion">
-            <ul type="none">
-                <li class="FooterLista"><a class="LinkFooter" href="">Terminos y condiciones</a></li>
-                <li class="FooterLista"><a class="LinkFooter" href="">Política de privacidad</a></li>
-                <li class="FooterLista"><a class="LinkFooter" href="">Política de cookies</a></li>
-            </ul>  
+            <h2 class="FooterTexto">Suscribite</h2>
+            <h3 class="FooterTexto">y enterate todas las novedades!</h3>
+            <form class="FormFooter" action="" method="post" enctype="text/plain">
+                <input class="CampoSuscripcion" type="email" name="email" placeholder="Ingresa tu email aquí">
+                <input class="BotonSuscripcion" type="submit" value="Unirse">
+            </form>
         </div>
         <div class="FooterPosicion">
             <ul type="none">
@@ -60,14 +71,13 @@
                 <a class="BotonIcono" href=""><img src="iconos/tw.png" alt="twitter" width="30px" height="auto"></a>
             </div>
         </div>
-        <div class="FooterPosicion">
-            <h2 class="FooterTexto">Suscribite</h2>
-            <h3 class="FooterTexto">y enterate todas las novedades!</h3>
-            <form action="" method="post" enctype="text/plain">
-                <input class="CampoSuscripcion" type="email" name="email" placeholder="Ingresa tu email aquí">
-                <input class="BotonSuscripcion" type="submit" value="Unirse">
-            </form>
-        </div>      
+        <div class="FooterPosicion ListaEscritorio">
+            <ul type="none">
+                <li class="FooterLista"><a class="LinkFooter" href="">Terminos y condiciones</a></li>
+                <li class="FooterLista"><a class="LinkFooter" href="">Política de privacidad</a></li>
+                <li class="FooterLista"><a class="LinkFooter" href="">Política de cookies</a></li>
+            </ul>  
+        </div>                  
     </footer>
 </body>
 </html>
